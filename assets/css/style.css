@@ -294,7 +294,7 @@ footer {
     margin-bottom: 50px;
 }
 
-.timeline-item: {
+.timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
@@ -319,3 +319,18 @@ footer {
     margin: 0;
 }
 
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
